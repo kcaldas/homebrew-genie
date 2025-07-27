@@ -11,7 +11,6 @@ class Genie < Formula
       url "https://github.com/kcaldas/genie/releases/download/v0.1.6/genie_0.1.6_darwin_amd64.tar.gz"
       sha256 "46388295e8c7c979c199c9b7a9a27437253e35eff970e8ef07308debbdea8093"
     end
-    sha256 "replace_with_actual_sha256"
   end
 
   on_linux do
@@ -22,7 +21,6 @@ class Genie < Formula
       url "https://github.com/kcaldas/genie/releases/download/v0.1.6/genie_0.1.6_linux_amd64.tar.gz"
       sha256 "214ebfaee92b70342a4cdf311543ebc4cb7a343c025a07dbf7340f323f567573"
     end
-    sha256 "replace_with_actual_sha256"
   end
 
   def install
