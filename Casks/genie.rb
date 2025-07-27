@@ -13,22 +13,22 @@ cask "genie" do
   on_macos do
     on_intel do
       url "https://github.com/kcaldas/genie/releases/download/v0.1.7/genie_0.1.7_darwin_amd64.tar.gz"
-      sha256 "9e77e99aabfda35e43eba6c91e801190ef8fc59192fe2fbf848bd4086a230b9c"
+      sha256 "370224f5f1e3ac5f3c79d7c4b41dc14619a3db4000cb4865408d9d9238b868e4"
     end
     on_arm do
       url "https://github.com/kcaldas/genie/releases/download/v0.1.7/genie_0.1.7_darwin_arm64.tar.gz"
-      sha256 "89f7d7dcb44e493d122d17c03a22331cf662bb0a179490d6d049eef0d78ffaf9"
+      sha256 "a4ff09414c8783b85d76d0d9f82a67b4df2d47c4e50e1b19d3afdba7406bb219"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kcaldas/genie/releases/download/v0.1.7/genie_0.1.7_linux_amd64.tar.gz"
-      sha256 "3772dedf408fad2a678c64ce607220e9b05cd8efc026944190f6799f464e0272"
+      sha256 "efbacb9eea4864d3de525433a19d14ed0d0f5383e171beb86345204f4f536cb2"
     end
     on_arm do
       url "https://github.com/kcaldas/genie/releases/download/v0.1.7/genie_0.1.7_linux_arm64.tar.gz"
-      sha256 "769d2fc84a732603177407b886ce3452a6db6eeb7a7b735f566481a675f95b20"
+      sha256 "0ccc29dde88762601c830b9125ea1d2f5765fe6bc6adc47cc4792727c0863554"
     end
   end
 
