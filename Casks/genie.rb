@@ -3,7 +3,7 @@ cask "genie" do
   name "genie"
   desc "AI-powered coding assistant with CLI and TUI interfaces"
   homepage "https://github.com/kcaldas/genie"
-  version "0.2.2-beta"
+  version "0.2.3-beta"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "genie" do
   on_macos do
     on_intel do
       url "https://github.com/kcaldas/genie/releases/download/v#{version}/genie_#{version}_darwin_amd64.tar.gz"
-      sha256 "ab0a0063fbcc2991ffea8eba6bf0c5c378edc7ae035812749239e895a798ddcf"
+      sha256 "fefae5edf4c6f16f21764a8c5f0e54af983bf34d776b9f86fa6088f5299c06f5"
     end
     on_arm do
       url "https://github.com/kcaldas/genie/releases/download/v#{version}/genie_#{version}_darwin_arm64.tar.gz"
-      sha256 "661e6654aa065ec694409200baaf175e5b18b89dfc19879f8efc3ad6c2545fbb"
+      sha256 "556768e4668932a64e15583ba9fb013da24a4bb6d2284edec6362e56a4ff8296"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kcaldas/genie/releases/download/v#{version}/genie_#{version}_linux_amd64.tar.gz"
-      sha256 "7c95eeb96db9ef70add27d8d47f2158210a1262b43f68d8b1245754fd950d4cd"
+      sha256 "ca647af846780509f2dc0c81cf0df5c82d4219227baf17604e809cdc327daa3c"
     end
     on_arm do
       url "https://github.com/kcaldas/genie/releases/download/v#{version}/genie_#{version}_linux_arm64.tar.gz"
-      sha256 "356f7981572a7de1db807f5c16ba6780085e37d380fe21ce49e398f8dd69650d"
+      sha256 "8bb856255317cb21f0ffca15eaa6abc64c6d15e86150d1c4e9348ee497573cb1"
     end
   end
 
